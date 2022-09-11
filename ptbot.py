@@ -14,7 +14,7 @@ class Bot():
 
     def __init__(self, api_key):
         if not api_key:
-            raise(ValueError("Токен не указан"))
+            raise(ValueError("1856116597:AAH0NMefFKbLHuTYr5bQnodwm9O-x1psjF4"))
         self.api_key = api_key
         # self.user_id = user_id
         self.bot = telegram.Bot(token=api_key)
